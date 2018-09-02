@@ -1,9 +1,10 @@
 package next.com;
-
+//
 public class Card {
 	
 	final static String[] CARDNUM = {"A","2","3","4","5","6","7","8","9","10","K","Q","J"};
 	final static String[] CARDSHAPE = {"♠","◆","♥","♣"};
+
 
 	//카드 문자(ex. A◆, 2♣)를 String 타입으로 저장한다.
 	//getCard() 메소드가 있으니깐, card는 private으로 해도 될것 같다.
